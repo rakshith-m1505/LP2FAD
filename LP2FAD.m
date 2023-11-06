@@ -96,11 +96,7 @@ toc;
 function [best_layup,best_layup_error,no_of_eval] = LP2SS_FFT(LPs,N,balanced,angle_multiples,Sample_Style)
 
 % Number of frequency bins (= Ply orientations)
-if balanced
-    Fs = 90;
-else
-    Fs = 180;
-end
+Fs = 90;
 
 % % Generate samples and their timestamps using observed signal patterns
 [x,t] = signal_patterns(Sample_Style,LPs,Fs);
