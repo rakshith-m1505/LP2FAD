@@ -1,14 +1,14 @@
 # LP2FAD
 MATLAB implementation of the master thesis work carried out at the Faculty of Aerosapce Engineering, TU Delft.
 
-# Master Thesis Details
+## Master Thesis Details
 Stiffness Design of Laminated Composites: Efficient Conversion of Lamination Parameters into Stacking Sequences
 
-# Contributors
+## Contributors
 Master Thesis Student: Rakshith Manikandan\
 Supervisors: Dr.Ir. D.M.J. Peeters, and Dr.ir J.M.J.F. van Campen
 
-# Motivation
+## Motivation
 Converting a set of Lamination Parameters (LPs) into Stacking sequences (SS) is usually performed using a Genetic Algorithm or Decision-tree based tools. However, as the number of layers and permissible ply orientations increases, these methods can become computationally expensive, posing a significant challenge. Hence, this thesis proposed partitioning the process of converting LPs into SS. First, the number of plies belonging to every ply orientation, or the Fibre Angle Distribution (FAD), will be designed. Then, using them as a basis, the SS will be designed. \
 \
 As a first step in this direction, this master's thesis focuses on efficiently designing FADs, for which a novel Fast Fourier Transform(FFT)-based method is introduced. The MATLAB implementation of this method can be found in this repository. Future updates of this code will focus on converting FADs into SS.
