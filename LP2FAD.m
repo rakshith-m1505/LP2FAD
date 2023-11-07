@@ -11,7 +11,7 @@ function [close_matches_FAD,close_matches_LP_err]=LP2FAD(LP_targets,D_N,angle_mu
 % angle_multiples -> Desired angle multiples in Layup <45 / 30 / 15>
 % symmetry -> Symmetric Design Guideline <true/false>
 % balanced -> Balanced Design Guideline <true/false>
-% num_of_sols -> Maximum no. of closely matching solutions to be saved
+% num_of_sols -> Maximum number of closely matching solutions to be saved
 % print_opt -> Print Results <true/false>
 
 %% Necessary Pre-processing of Input
